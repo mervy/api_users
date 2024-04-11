@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linguagens de Programação</title>
+  <style>
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div id="languages"></div>
+
+<script>
+  // Função para carregar o JSON
+  function loadJSON(callback) {   
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'api_programming_languages.json', true);
+    xobj.onreadystatechange = function () {
+      if (xobj.readyState == 4 && xobj.status == 200) {
+        callback(JSON.parse(xobj.responseText));
+      }
+    };
+    xobj.send(null);  
+  }
+
+  // Função para exibir as linguagens de programação
+  function displayLanguages() {
+    loadJSON(function(data) {
+      var languagesContainer = document.getElementById('languages');
+      data.forEach(function(language) {
+        var card = document.createElement('div');
+        card.classList.add('card');
+
+        var logo = document.createElement('img');
+        logo.src = language.logo;
+        card.appendChild(logo);
+
+        var name = document.createElement('h2');
+        name.textContent = language.name;
+        card.appendChild(name);
+
+        var details = document.createElement('ul');
+        for (var key in language) {
+          if (key !== 'id' && key !== 'uuid' && key !== 'logo' && key !== 'name') {
+            var listItem = document.createElement('li');
+            listItem.innerHTML = `<strong>${key}:</strong> ${language[key]}`;
+            details.appendChild(listItem);
+          }
+        }
+        card.appendChild(details);
+
+        languagesContainer.appendChild(card);
+      });
+    });
+  }
+
+  // Chama a função para exibir as linguagens de programação
+  displayLanguages();
+</script>
+
+</body>
+</html>
