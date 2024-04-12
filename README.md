@@ -17,9 +17,6 @@
 
 [Acesse aqui](https://mervy.github.io/my_apis) e veja o resultado
 
-```html
-
-```
 
 **Ideia para listar os conteúdos**
 - https://www.youtube.com/watch?v=PmDtOBtZzhQ
