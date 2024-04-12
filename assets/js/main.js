@@ -4,7 +4,7 @@ const url = "https://mervy.github.io/my_apis/api_programming-languages.json";
 fetch(url).then((resDados) => {
   resDados.json().then((datas) => {
     // console.log(datas);
-    datas.map((item)=>{
+    datas.languages.map((item)=>{
         divContent.innerHTML += `
         <div class="card">
         <div class="card-header">
