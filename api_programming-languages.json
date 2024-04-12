@@ -83,7 +83,7 @@
       "defects": "Limitado principalmente ao ecossistema da Microsoft, pode ter uma curva de aprendizado mais íngreme para iniciantes.",
       "website": "https://docs.microsoft.com/pt-br/dotnet/csharp/",
       "current_version": "C# 10",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg"
     },
     {
       "id": 6,
@@ -117,7 +117,7 @@
       "defects": "Curva de aprendizado para desenvolvedores JavaScript, potencial para código redundante em razão da tipagem estática.",
       "website": "https://www.typescriptlang.org/",
       "current_version": "TypeScript 4.5",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2022.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
     },
     {
       "id": 8,
@@ -200,9 +200,9 @@
       "uses": "Desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS.",
       "features": "Orientada a objetos, uso extenso em bibliotecas Apple, histórico de compatibilidade com código C.",
       "defects": "Sintaxe complexa em comparação com linguagens modernas, perda de popularidade com a introdução do Swift.",
-      "website": "N/A",
+      "website": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
       "current_version": "N/A",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Objective-C_logo.png"
+      "logo": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/objective-c/objective-c.png"
     },
     {
       "id": 13,
