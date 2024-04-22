@@ -1,28 +1,29 @@
-let divContent = document.querySelector(".content");
-const url = "https://mervy.github.io/my_apis/api_programming-languages.json";
+//Importando e exibindo a navbar
+import navBar from "../../pages/partials/navbar.js";
+// Supondo que você queira adicionar a barra de navegação a um elemento <header> na sua página
+let headerElement = document.querySelector("header");
+headerElement.innerHTML = navBar;
 
-fetch(url).then((resDados) => {
-  resDados.json().then((datas) => {
-    // console.log(datas);
-    datas.languages.map((item)=>{
-        divContent.innerHTML += `
-        <div class="card">
-        <div class="card-header">
-          <img src="${item.logo}" alt="" height="90">
-          <h2>${item.name}</h2>
-         <small><strong>[${item.year_creation}]</strong></small>
-        
-        </div>
-        <div class="description">
-          <p><strong>${item.creator}</strong></p>
-          <p>${item.company}</p>
-          <p>${item.description}</p>
-          <p>${item.uses}</p>
-          <p>${item.tools_frameworks}</p>
-          <p>${item.website}</p>
-        </div>        
-        `
-    })
+//Importando pagina languages
+import languages from "../../pages/languages.js";
+let h1 = document.createElement(h1);
+let text = h1.innerHTML = "Titulo"
+h1.appendChild = text
 
-  });
-});
+
+//Importando footer
+import footerModule from "../../pages/partials/footer.js";
+let footerContent = document.querySelector("footer");
+footerContent.innerHTML = footerModule;
+
+import homeBlock from "../../pages/home.js";
+let homeContent = document.querySelector(".home");
+if (homeContent) {
+  homeContent.innerHTML = homeBlock;
+}
+
+import aboutBlock from "../../pages/about.js";
+let aboutContent = document.querySelector(".about");
+if (aboutContent) {
+  aboutContent.innerHTML = aboutBlock;
+}
