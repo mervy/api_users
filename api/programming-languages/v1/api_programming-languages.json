@@ -186,24 +186,7 @@
       "website": "https://www.r-project.org/",
       "current_version": "R 4.1",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg"
-    },
-    {
-      "id": 12,
-      "uuid": "c76a88e4-e70d-45b5-8d8b-bf6fb7b5e8ff",
-      "name": "Objective-C",
-      "year_creation": 1983,
-      "creator": "Brad Cox, Tom Love",
-      "company": "Apple Inc.",
-      "companies_use": "Apple, Uber, Airbnb, etc.",
-      "description": "Uma linguagem de programação geralmente associada ao desenvolvimento de aplicativos para dispositivos Apple, antes da introdução do Swift.",
-      "tools_frameworks": "Cocoa, Cocoa Touch, Objective-C Runtime, etc.",
-      "uses": "Desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS.",
-      "features": "Orientada a objetos, uso extenso em bibliotecas Apple, histórico de compatibilidade com código C.",
-      "defects": "Sintaxe complexa em comparação com linguagens modernas, perda de popularidade com a introdução do Swift.",
-      "website": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
-      "current_version": "N/A",
-      "logo": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/objective-c/objective-c.png"
-    },
+    },    
     {
       "id": 13,
       "uuid": "f2069467-7f6b-4d2d-b784-0a32a7baf7b1",
@@ -287,7 +270,7 @@
       "defects": "Curva de aprendizado íngreme para alguns usuários, falta de bibliotecas em comparação com Java.",
       "website": "https://kotlinlang.org/",
       "current_version": "Kotlin 1.6",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin-logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kotlin_logo_2021.svg"
     },
     {
       "id": 18,
@@ -389,7 +372,7 @@
       "defects": "Menos consistência em comparação com bancos de dados relacionais, menos suporte para transações ACID, curva de aprendizado para modelos de dados não relacionais.",
       "website": "https://nosql-database.org/",
       "current_version": "N/A",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/NoSQL_databases_logo.svg"
+      "logo": "https://static.thenounproject.com/png/4562629-200.png"
     },
     {
       "id": 24,
@@ -406,7 +389,7 @@
       "defects": "Sintaxe complexa, dificuldade de leitura para alguns programadores, menos popularidade em comparação com outras linguagens.",
       "website": "https://www.perl.org/",
       "current_version": "Perl 5",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Perl_logo.svg"
+      "logo": "https://cdn.freelogovectors.net/wp-content/uploads/2021/02/perl_logo_freelogovectors.net_.png"
     },
     {
       "id": 25,

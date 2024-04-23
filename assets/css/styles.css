@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-size: 1.03em;
 }
 
 body {
@@ -13,7 +14,42 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+}
+small {
+    font-size: .6em;
+    color: red;
+}
+
+article p {
+    margin: 8px;
+}
+
+.api ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 70vw;
+}
+
+.api li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(226, 82, 25, 0.226);
+    border-radius: 70px 0 0 0;   
+    transition-duration: 3s, 5s;
+}
+
+.api li:hover {
+    transform: scale(1.2); 
+    transition-property: opacity, left, top, height;
+    background-color: rgba(226, 82, 25, 0.048);
 }
 
 h1 {
@@ -24,17 +60,18 @@ h1 {
     text-align: center;
 }
 
-.content {    
+.content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     max-width: 90%;
+    margin: 0 auto;
 }
 
 .card {
-    max-width: 500px; 
+    max-width: 500px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -54,6 +91,7 @@ h1 {
 .description {
     margin-top: 20px;
 }
+
 .description p {
     margin: 8px;
 }
@@ -78,14 +116,21 @@ header nav li {
     list-style: none;
     background-color: fucsia;
 }
+
 header nav li a {
     font-size: larger;
     color: chocolate;
 }
+
 header nav li a:hover {
     font-size: larger;
     color: rgba(210, 105, 30, 0.7);
     text-decoration: underline;
+}
+
+.p-email {
+    display: flex;
+    gap: 10px;
 }
 
 footer {
@@ -97,5 +142,4 @@ footer {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(233, 206, 176, 0.377);
-
 }
